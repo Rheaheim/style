@@ -1,0 +1,45 @@
+    .td-navbar {
+      background: linear-gradient(90deg, rgb(247, 149, 51) 0, rgb(243, 112, 85) 15%, rgb(239, 78, 123) 30%, rgb(161, 102, 171) 44%, rgb(80, 115, 184) 58%, rgb(16, 152, 173) 72%, rgb(7, 179, 155) 86%, rgb(109, 186, 130) 100%);
+    }
+
+    .footbg{
+      -webkit-backdrop-filter: saturate(180%) blur(1em);
+      backdrop-filter: saturate(180%) blur(1em);
+      background: linear-gradient(90deg, rgba(247, 149, 51, 0.1) 0, rgba(243, 112, 85, 0.1) 15%, rgba(239, 78, 123, 0.1) 30%, rgba(161, 102, 171, 0.1) 44%, rgba(80, 115, 184, 0.1) 58%, rgba(16, 152, 173, 0.1) 72%, rgba(7, 179, 155, 0.1) 86%, rgba(109, 186, 130, 0.1) 100%);
+
+    }
+
+     body{
+      background-color:	#FFFAFA;
+
+  }
+  .leftm{
+      width:78px;
+      margin:0em 1.5em;
+      box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.9); 
+      transform: scale(1); 
+      transition: box-shadow 0.6s, transform 0.5s; 
+    }
+
+  
+    /* body{
+      font-family: "Noto Serif SC",Times, serif;
+      font-weight: 400;
+    } */
+
+     
+  #upBtn {
+    display: none; /* 默认隐藏 */
+}
+ 
+.shareBtn {
+  margin: 2 auto;
+  position: fixed; 
+  z-index: 99; 
+  cursor: pointer; 
+  bottom:18px; 
+  right: 18px; 
+  width: 50px;
+  float: left;
+  text-align: center;
+}
